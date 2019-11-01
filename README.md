@@ -31,12 +31,13 @@
 ### [关联资源](https://github.com/sochub)
 
 * [编译工具](https://github.com/sochub/arm-none-eabi)
+* [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
 
 ### [选型建议](https://github.com/sochub)
 
-[STM32F401](https://github.com/sochub/STM32F401)是[STM32F4](https://github.com/sochub/STM32F4)系列中的低端版本，可以作为F4系列中降成本迁移的首选
+[STM32F401](https://github.com/sochub/STM32F401)是[STM32F4](https://github.com/sochub/STM32F4)系列中的低端版本，可以作为F4系列中降成本迁移的首选，可以在不迁移库情况下将配。
 
 * 向下替换方案 [STM32F103](https://github.com/sochub/STM32F103) 
-* 相近替换方案 [STM32F401](https://github.com/sochub/STM32F401) 
+* 同系替换方案 [STM32F405](https://github.com/sochub/STM32F405) 
 
 ##  [SoC资源平台](http://www.qitas.cn)
