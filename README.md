@@ -1,43 +1,21 @@
-﻿# [STM32F401](https://github.com/sochub/STM32F401) 
-[![sites](SoC/qitas.png)](http://www.qitas.cn) 
-#### 父级：[STM32F4](https://github.com/sochub/STM32F4)
-#### 内核：[Cortex M4](https://github.com/sochub/CM4) 
-#### 收录芯片定级：[Level](https://github.com/sochub/Level)
-### [芯片简介](https://github.com/sochub/STM32F401/wiki)
+﻿# [HC32F072](https://github.com/SoCXin/HC32F072)
 
-[STM32F401](https://github.com/sochub/STM32F401) 提供了动态功耗（运行模式）和处理性能之间的最佳平衡，同时在3 x 3 mm的小封装内集成了大量的增值特性。
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-工作频率为84 MHz的Cortex®-M4内核（具有浮点单元）的性能，同时还能在运行和停机模式下实现出色的低功耗性能。
+#### [Vendor](https://github.com/SoCXin/Vendor)：[HDSC](https://www.hdsc.com.cn/)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
+#### [Level](https://github.com/SoCXin/Level)：48 MHz  * 0.95 DMIPS/MHz
 
-[![sites](SoC/STM32F401.jpg)](https://www.st.com/content/st_com/zh/products/microcontrollers-microprocessors/stm32-32-bit-arm-cortex-mcus/stm32-high-performance-mcus/stm32f4-series/stm32f401.html) 
+[HC32F072](https://github.com/SoCXin/HC32F072)
 
-### 关键特性
+* 16KB SRAM + 128KB Flash
+* 5个多功能运算放大器，其中两个OPA可以作为 2路 DAC的输出 Buffer
+* 3路电压比较器，具有 6位 DAC和可编程比较基准
+* 1路 CAN 2.0B 标准通讯接口 + Crystal-less USB Full Speed Device
+* 2路 12位 500Ksps DAC
+* AES-128/192/256 硬件协处理器
 
-#### USB OTG + SDIO
+### [选型建议](https://github.com/SoCXin)
 
-* STM32F401产品组合具有128至512 KB的Flash存储器和96 KB的SRAM。 封装为49-100引脚
-* 3路USART速度高达10.5 Mbit/s，4路SPI速度高达42 Mbit/s
-* 3路I²C，2个全双工I²S，最高32-bit/192KHz，
-* 1路SDIO
-* 1个全速USB 2.0 OTG
-* 速度高达2.4 MSPS的12位ADC
-* 10个定时器，频率高达84 MHz的16和32位定时器
 
-### [收录资源](https://github.com/sochub/STM32F401)
-
-* [参考文档](docs/)
-* [参考资源](src/)
-
-### [关联资源](https://github.com/sochub)
-
-* [编译工具](https://github.com/sochub/arm-none-eabi)
-* [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)
-
-### [选型建议](https://github.com/sochub)
-
-[STM32F401](https://github.com/sochub/STM32F401)是[STM32F4](https://github.com/sochub/STM32F4)系列中的低端版本，可以作为F4系列中降成本迁移的首选，可以在不迁移库情况下将配。
-
-* 向下替换方案 [STM32F103](https://github.com/sochub/STM32F103) 
-* 同系替换方案 [STM32F405](https://github.com/sochub/STM32F405) 
-
-##  [SoC资源平台](http://www.qitas.cn)
+###  [SoC芯平台](http://www.SoC.Xin)
