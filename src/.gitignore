@@ -1,0 +1,14 @@
+*.pyc
+.pio/
+.vscode/
+settings
+config
+.settings
+mpu_*
+*launch
+*.dep
+*.log
+*.ewt
+*.ewd
+*.sfr
+RTE

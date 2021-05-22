@@ -2,9 +2,11 @@
 
 [![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/SoCXin/Vendor)：[HDSC](https://www.hdsc.com.cn/)
-#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
-#### [Level](https://github.com/SoCXin/Level)：48 MHz  * 0.95 DMIPS/MHz
+*  [hdsc](https://www.hdsc.com.cn/)：[Cortex-M0](https://github.com/SoCXin/Cortex)
+*  [Level](https://github.com/SoCXin/Level)：48 MHz  * 0.95 DMIPS/MHz
+
+## [简介](https://github.com/SoCXin/HC32F072/wiki)
+
 
 [HC32F072](https://github.com/SoCXin/HC32F072)
 
@@ -15,7 +17,15 @@
 * 2路 12位 500Ksps DAC
 * AES-128/192/256 硬件协处理器
 
+### [资源收录](https://github.com/SoCXin/HC32F072)
+
+* [参考文档](docs/)
+* [参考资源](src/)
+* [参考工程](project/)
+
 ### [选型建议](https://github.com/SoCXin)
 
+[HC32F072](https://github.com/SoCXin/HC32F072)
 
-###  [SoC芯平台](http://www.SoC.Xin)
+
+###  [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
